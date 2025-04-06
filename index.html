@@ -359,16 +359,17 @@
       </div>
       <div class="footer-subscribe">
         <p class="footer-title">Subscribe</p>
-        <div class="footer-elements">
-          <label class="subscribe-input-label" for="user-email">
-            <input type="text" class="subscribe-input" name="user-email" id="user-email" placeholder="E-mail">
+        <form class="subscribe-form">
+          <label class="subscribe-input-label" aria-label="footer-email">
+            <input type="email" class="subscribe-input" name="subscribe-email" id="subscribe-email"
+              placeholder="E-mail">
           </label>
-          <button class="footer-subscribe-btn" type="button">Subscribe
+          <button class="footer-subscribe-btn" type="submit">Subscribe
             <svg class="subscribe-icon" width="24" height="20">
               <use href="./images/icons.svg#icon-icon-send"></use>
             </svg>
           </button>
-        </div>
+        </form>
       </div>
     </div>
   </footer>
